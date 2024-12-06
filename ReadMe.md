@@ -35,6 +35,8 @@ The **Recipes App** is a CRUD (Create, Read, Update, Delete) application for man
 
 Detailed API documentation is included in the Postman collection. It includes:
 
+Postman Collection Documentation: [Recipes API](https://documenter.getpostman.com/view/33765519/2sAYBbeV4p)
+
 - API endpoint details.
 - Sample requests and responses.
 - Error handling and validation rules.

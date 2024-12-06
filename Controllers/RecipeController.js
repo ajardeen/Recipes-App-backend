@@ -12,7 +12,7 @@ const createRecipe = async (req, res) => {
       category,
     });
     const savedRecipe = await recipe.save();
-    res.status(201).json(savedRecipe);
+    res.status(201).json({message:"Recipe created successfully",savedRecipe});
   } catch (error) {
     res.status(500).json({ error: "Failed to create recipe" });
   }
